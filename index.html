@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein P2P Messenger</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="main-app">
+
+        <div id="chat-list-container">
+            <header id="main-header">
+                <span id="header-chats">Chats</span>
+                <span id="header-username">Ihr-Benutzername</span> 
+                <button id="menu-btn">☰</button> 
+            </header>
+            <div id="chat-list">
+                </div>
+        </div>
+
+        <div id="chat-window-container">
+            <header id="chat-header">
+                <span id="current-chat-name">Kontaktname oder Gruppenname</span>
+            </header>
+            <div id="messages">
+                </div>
+            <div id="input-area">
+                <input type="text" id="message-input" placeholder="Nachricht eingeben...">
+                <button id="send-btn">Senden</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="module" src="p2p_manager.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
